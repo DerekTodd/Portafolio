@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualización del Dataset NBA 🏀</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Roboto, sans-serif;
+        background: linear-gradient(180deg, #0a0f24, #1a2a6c);
+        color: #ffffff;
+        text-align: center;
+      }
+
+      header {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 2rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        color: #fdd835;
+        text-shadow: 1px 1px 4px #000;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        padding: 2rem;
+      }
+
+      section {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        padding: 1.5rem;
+        width: 90%;
+        max-width: 800px;
+      }
+
+      h2 {
+        color: #4dd0e1;
+        margin-bottom: 1rem;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 15px;
+        border: 2px solid #4dd0e1;
+      }
+
+      footer {
+        margin-top: 3rem;
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 0.9rem;
+        color: #ccc;
+      }
+
+      @media (min-width: 768px) {
+        main {
+          flex-direction: row;
+          justify-content: center;
+        }
+        section {
+          width: 40%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Visualización del Dataset NBA 🏀</h1>
+      <p>Gráficas generadas automáticamente con Python y Matplotlib</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>📊 Promedio por Equipo o Posición</h2>
+        <img
+          src="barras.png"
+          alt="Gráfica de barras de promedio por equipo o posición"
+        />
+      </section>
+
+      <section>
+        <h2>🥧 Distribución de Jugadores por Equipo</h2>
+        <img
+          src="pastel.png"
+          alt="Gráfica de pastel de distribución de jugadores por equipo"
+        />
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Derek Todd — Proyecto de Visualización de Datos NBA</p>
+    </footer>
+  </body>
+</html>
