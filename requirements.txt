@@ -1,0 +1,10 @@
+# ---------------------------------------------------------
+# Proyecto: Visualización del Dataset NBA con Elasticsearch
+# Autor: Derek Todd López
+# Descripción: Librerías necesarias para conectar con
+# Elasticsearch Cloud y generar gráficas automáticas.
+# ---------------------------------------------------------
+
+elasticsearch>=8.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
